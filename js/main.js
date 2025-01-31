@@ -1,5 +1,14 @@
 import './style.css';
 
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then(reg => console.log("Service Worker registrado!", reg))
+      .catch(err => console.error("Erro ao registrar o Service Worker", err));
+  });
+}
+
+
 const cameraView = document.querySelector("#camera--view"),
   cameraSensor = document.querySelector("#camera--sensor"),
   cameraTrigger = document.querySelector("#camera--trigger"),
