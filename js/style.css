@@ -1,0 +1,96 @@
+/* Definição de variáveis para cores do tema */
+:root {
+    --cor-primaria: #ff4081; /* Rosa vibrante */
+    --cor-secundaria: #212121; /* Preto escuro */
+    --cor-fundo: #121212; /* Fundo preto mais suave */
+    --cor-texto: #ffffff; /* Texto branco */
+  }
+  
+  body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .cabecalho {
+    background-color: var(--cor-secundaria);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(255, 64, 129, 0.5);
+  }
+  
+  .titulo {
+    color: var(--cor-primaria);
+  }
+  
+  .conteudo {
+    padding: 20px;
+  }
+  
+  #camera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  button {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #d81b60; /* Um tom mais escuro de rosa */
+  }
+  
+  input {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: 1px solid var(--cor-primaria);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  #photo-gallery-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--cor-secundaria);
+    border-radius: 10px;
+  }
+  
+  .photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .photo-preview {
+    max-width: 100%;
+    border: 2px solid var(--cor-primaria);
+    border-radius: 10px;
+  }
+  
+  .rodape {
+    background-color: var(--cor-secundaria);
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 -4px 8px rgba(255, 64, 129, 0.5);
+  }
+  
