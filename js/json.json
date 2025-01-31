@@ -1,0 +1,36 @@
+[
+    {
+        "latitude": -22.214346824182048, 
+        "longitude": -53.33518339065308,
+        "imagem": "js/assets/pwa-108.jpg"
+      },
+    {
+        "latitude": -22.569880096410415, 
+        "longitude": -53.064891951778144,
+        "imagem": "js/assets/pwa-3237.jpg"
+      },
+    
+    {
+        "latitude": -22.096453872803153, 
+        "longitude": -53.44228944072136,
+        "imagem": "js/assets/pwa-7588.jpg"
+      },
+    
+    {
+        "latitude": -22.229431858164613, 
+        "longitude": -53.33654964587059,
+        "imagem": "js/assets/pwa-924.jpg"
+      },
+    
+    {
+        "latitude": -22.343058134790585, 
+        "longitude": -53.71800579135069,
+        "imagem": "js/assets/pwa-608.jpg"
+      },
+    {
+        "latitude": -22.211138262011172, 
+        "longitude": -53.33336583728294,
+        "imagem": "js/assets/pwa-83.jpg"
+      }
+    
+    ]
